@@ -1,0 +1,1 @@
+../../../JDCNAnalytics/JDCNAnalytics/Classes/Analytics/JDTDMobClickTrackBaseModel.h

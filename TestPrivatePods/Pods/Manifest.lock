@@ -1,0 +1,44 @@
+PODS:
+  - FaceBussinesDependencyFaceSDK (0.1.4):
+    - JDCNAnalytics (~> 0.1.0)
+    - jdcnFaceSDK (~> 0.2.0)
+    - JDJR_Encryption (~> 0.0.4)
+    - JDJR_Utils (~> 0.0.2)
+  - JDCNAnalytics (0.1.4):
+    - JDJR_Networking (~> 0.0.1)
+  - jdcnFaceSDK (0.2.0)
+  - JDJR_Encryption (0.0.4):
+    - JDJR_Encryption/JDJR_AES (= 0.0.4)
+    - JDJR_Encryption/JDJR_AKSAdapter (= 0.0.4)
+    - JDJR_Encryption/JDJR_MD5 (= 0.0.4)
+    - JDJR_Encryption/JDJR_RSA (= 0.0.4)
+    - JDJR_Encryption/JDJR_Sha_XX (= 0.0.4)
+  - JDJR_Encryption/JDJR_AES (0.0.4):
+    - JDJR_Utils (~> 0.0.2)
+  - JDJR_Encryption/JDJR_AKSAdapter (0.0.4)
+  - JDJR_Encryption/JDJR_MD5 (0.0.4)
+  - JDJR_Encryption/JDJR_RSA (0.0.4)
+  - JDJR_Encryption/JDJR_Sha_XX (0.0.4)
+  - JDJR_Networking (0.0.5):
+    - JDJR_Reachability (~> 0.0.2)
+  - JDJR_Reachability (0.0.2)
+  - JDJR_Utils (0.0.11)
+  - JRRegexKitLite (0.1.2)
+
+DEPENDENCIES:
+  - FaceBussinesDependencyFaceSDK
+  - JRRegexKitLite
+
+SPEC CHECKSUMS:
+  FaceBussinesDependencyFaceSDK: 06ab2286b7cb0ebddfb6d173b875f673fe839ec7
+  JDCNAnalytics: 13f0a5db7739e6dd6bb1ac2d5951db10f3782513
+  jdcnFaceSDK: 384f5ee1ceed961490d9cf92a140837addc9a178
+  JDJR_Encryption: c445fe4a9ccb2c88cc5a617e6ba22d723c0103ed
+  JDJR_Networking: 7a5c431dae46dbf0c06a97e3b939f6b71d3ccce2
+  JDJR_Reachability: 3cd8b90875a057296af9f063b32702b559454808
+  JDJR_Utils: ca2d9a465a648f54c81e602552097f8fc7fb528e
+  JRRegexKitLite: 61d09586e57fcd8809b008aca8d2a11f71199062
+
+PODFILE CHECKSUM: feebaf3288646997e5b17b378be220369a278f58
+
+COCOAPODS: 1.3.1

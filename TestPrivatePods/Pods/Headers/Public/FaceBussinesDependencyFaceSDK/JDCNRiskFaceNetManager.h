@@ -1,0 +1,1 @@
+../../../FaceBussinesDependencyFaceSDK/FaceBussinesDependencyFaceSDK/Classes/Network/NetManager/JDCNRiskFaceNetManager.h

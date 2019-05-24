@@ -1,0 +1,1 @@
+../../../jdcnFaceSDK/jdcnFaceSDK/Classes/FaceOC/JDCNFaceManagerDelegate.h

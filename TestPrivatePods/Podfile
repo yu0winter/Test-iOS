@@ -1,0 +1,13 @@
+# use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://jcode.cbpmgt.com/git/jrMobileRepo.git'
+source 'http://jcode.cbpmgt.com/git/JRRiskSpecs.git' #私有库
+
+target 'TestPrivatePods' do 
+
+
+pod 'JRRegexKitLite'
+
+pod 'FaceBussinesDependencyFaceSDK'
+
+end

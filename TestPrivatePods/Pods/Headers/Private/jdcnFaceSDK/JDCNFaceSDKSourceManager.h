@@ -1,0 +1,1 @@
+../../../jdcnFaceSDK/jdcnFaceSDK/Classes/DependencyFace/JDCNFaceSDKSourceManager.h
