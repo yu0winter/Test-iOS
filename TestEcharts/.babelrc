@@ -1,0 +1,15 @@
+{
+  "env": {
+    "production": {
+//      "presets": ["react-optimize"],
+//      "plugins": ["transform-remove-console", "transform-react-remove-prop-types"]
+    },
+    "development": {
+      "plugins": []
+    }
+  },
+  "plugins": [],
+  "presets": [
+    "react-native"
+  ]
+}

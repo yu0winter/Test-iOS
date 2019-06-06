@@ -1,0 +1,66 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IJ
+#
+*.iml
+.idea
+.gradle
+local.properties
+
+# node.js
+#
+node_modules/
+npm-debug.log
+package-lock.json
+
+# BUCK
+buck-out/
+\.buckd/
+android/app/libs
+android/keystores/debug.keystore
+
+android
+release
+
+ios
+
+.vscode/
+img/drawable-hdpi
+img/drawable-mdpi
+img/drawable-xhdpi
+img/drawable-xxhdpi
+img/drawable-xxxhdpi
+
+zip_bundle/
+android/JDJR/src/main/assets/
+ios/JDMobile_2.0/bundle/
+web/src/bundle.js
+#app/BusinessModule/index.js
+web/.prodTargetName
+web/src_dist/
+web/src_dev_temp/
+doc_dist/
+
+473fefb8aab644bc8b00810389d66ea4

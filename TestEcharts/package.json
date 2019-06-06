@@ -1,0 +1,46 @@
+{
+  "name": "AutoRepay",
+  "scripts": {
+    "dev": "NODE_ENV_EX=dev webpack-dev-server -d --progress --colors --watch --hot --port 80 --config web/webpack.config.dev.js --inline --quiet --host 0.0.0.0",
+    "lint": "eslint app",
+    "prod": "rm -rf ./web/src_dist && NODE_ENV_EX=m BABEL_ENV=production NODE_ENV=production webpack --config web/webpack.config.prod.js --progress --sort-modules-by",
+    "pub": "rm -rf ./web/src_dist && NODE_ENV_EX=minner BABEL_ENV=production NODE_ENV=production webpack --config web/webpack.config.prod.js --progress --sort-modules-by && jdf u -c ./web/src_dist /export/App/m.jr.jd.com/rn/ 172.23.182.136",
+    "start": "chameleon qrcode && node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react-native-secharts": "1.4.5"
+  },
+  "devDependencies": {
+    "animated": "0.2.0",
+    "archiver": "^2.0.0",
+    "autobind-decorator": "^2.1.0",
+    "babel-jest": "20.0.3",
+    "babel-loader": "6.4.1",
+    "babel-preset-react-native": "2.1.0",
+    "base64-img": "^1.0.3",
+    "chameleon-ui": "0.1.20",
+    "chameleon-web": "0.0.10",
+    "colors": "^1.1.2",
+    "dom-helpers": "^3.2.1",
+    "domkit": "0.0.1",
+    "htmlparser2": "^3.9.2",
+    "immutable": "^3.8.1",
+    "ip": "^1.1.5",
+    "jest": "20.0.4",
+    "moment": "^2.18.1",
+    "node-haste-webpack-plugin": "0.0.1",
+    "qrcode-terminal": "^0.11.0",
+    "query-string": "^5.0.0",
+    "react": "16.0.0-alpha.12",
+    "react-dom": "16.0.0-alpha.12",
+    "react-mixin": "^3.1.0",
+    "react-native": "0.47.1",
+    "react-native-animatable": "1.2.3",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "rmc-date-picker": "^5.5.0",
+    "stream": "0.0.2",
+    "webpack": "1.13.2",
+    "webpack-dev-server": "1.14.1"
+  },
+  "version": "0.0.1"
+}

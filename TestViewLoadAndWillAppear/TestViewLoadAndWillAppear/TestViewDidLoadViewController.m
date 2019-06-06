@@ -1,0 +1,56 @@
+//
+//  TestViewDidLoadViewController.m
+//  TestViewLoadAndWillAppear
+//
+//  Created by niuyulong on 2019/5/14.
+//  Copyright © 2019 nyl. All rights reserved.
+//
+
+#import "TestViewDidLoadViewController.h"
+
+@interface TestViewDidLoadViewController ()
+
+@end
+
+@implementation TestViewDidLoadViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+//    dispatch_async(dispatch_get_main_queue(), ^{
+//        for (int i=0; i<5000; i++) {
+//            NSLog(@"%s",__func__);
+//        }
+//    });
+      NSLog(@"🥶🥶%s",__func__);
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"🥶🥶%s",__func__);
+    if (animated) {
+        
+        
+//        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//
+//        });
+//
+    }
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    NSLog(@"🥶🥶%s",__func__);
+}
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+
+@end
