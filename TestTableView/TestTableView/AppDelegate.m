@@ -20,7 +20,19 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
-// 
+    for (NSBundle* bundle in [NSBundle allBundles]) {
+//        NSString* bundlePath = [bundle pathForResource:podName ofType:@"bundle"];
+//        if (bundlePath) { return bundlePath; }
+        
+        
+    }
+    
+    
+    //  // search all frameworks
+    for (NSBundle* bundle in [NSBundle allFrameworks]) {
+//        NSString* bundlePath = [bundle pathForResource:podName ofType:@"bundle"];
+//        if (bundlePath) { return bundlePath; }
+    }
 //    
 //    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 //        [self performSelectorOnMainThread:@selector(lod) withObject:nil waitUntilDone:NO];

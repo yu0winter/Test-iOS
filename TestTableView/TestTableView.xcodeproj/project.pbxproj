@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA26F24A22CCA94E00426DA4 /* UIView+YuViewDisplayArea.m in Sources */ = {isa = PBXBuildFile; fileRef = EA26F24822CCA94E00426DA4 /* UIView+YuViewDisplayArea.m */; };
 		EA4868BA22A8FF5300620CA7 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4868B922A8FF5300620CA7 /* TestTableViewCell.m */; };
+		EA75CAB622CCC3D600ED6248 /* TestFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA75CAB522CCC3D600ED6248 /* TestFooterView.m */; };
 		EAA423A822929523004863EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA423A722929523004863EB /* AppDelegate.m */; };
 		EAA423AB22929523004863EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA423AA22929523004863EB /* ViewController.m */; };
 		EAA423AE22929523004863EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA423AC22929523004863EB /* Main.storyboard */; };
@@ -30,8 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA26F24822CCA94E00426DA4 /* UIView+YuViewDisplayArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YuViewDisplayArea.m"; sourceTree = "<group>"; };
+		EA26F24922CCA94E00426DA4 /* UIView+YuViewDisplayArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YuViewDisplayArea.h"; sourceTree = "<group>"; };
 		EA4868B822A8FF5300620CA7 /* TestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
 		EA4868B922A8FF5300620CA7 /* TestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		EA75CAB422CCC3D600ED6248 /* TestFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFooterView.h; sourceTree = "<group>"; };
+		EA75CAB522CCC3D600ED6248 /* TestFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFooterView.m; sourceTree = "<group>"; };
 		EAA423A322929523004863EB /* TestTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA423A622929523004863EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EAA423A722929523004863EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -94,6 +100,10 @@
 				EABB6E8B22958C27008EADC1 /* Vendors */,
 				EAA423A922929523004863EB /* ViewController.h */,
 				EAA423AA22929523004863EB /* ViewController.m */,
+				EA75CAB422CCC3D600ED6248 /* TestFooterView.h */,
+				EA75CAB522CCC3D600ED6248 /* TestFooterView.m */,
+				EA26F24922CCA94E00426DA4 /* UIView+YuViewDisplayArea.h */,
+				EA26F24822CCA94E00426DA4 /* UIView+YuViewDisplayArea.m */,
 				EA4868B822A8FF5300620CA7 /* TestTableViewCell.h */,
 				EA4868B922A8FF5300620CA7 /* TestTableViewCell.m */,
 				EAA423AC22929523004863EB /* Main.storyboard */,
@@ -257,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA75CAB622CCC3D600ED6248 /* TestFooterView.m in Sources */,
 				EAA423AB22929523004863EB /* ViewController.m in Sources */,
+				EA26F24A22CCA94E00426DA4 /* UIView+YuViewDisplayArea.m in Sources */,
 				EA4868BA22A8FF5300620CA7 /* TestTableViewCell.m in Sources */,
 				EAA423B622929525004863EB /* main.m in Sources */,
 				EAA423A822929523004863EB /* AppDelegate.m in Sources */,
@@ -419,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27P38Y7966;
 				INFOPLIST_FILE = TestTableView/Info.plist;
@@ -428,6 +441,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nyl.TestTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -436,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27P38Y7966;
 				INFOPLIST_FILE = TestTableView/Info.plist;
@@ -445,6 +460,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nyl.TestTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
