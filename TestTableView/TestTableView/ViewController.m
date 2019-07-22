@@ -120,6 +120,7 @@
 - (IBAction)btn4OnClick:(id)sender {
     // numberOfSection，要求执行前执行后保持一致，否则崩溃
     self.dataArray = @[@1,@2];
+    [self.tableView reloadData];
     [self.tableView performBatchUpdates:^{
     } completion:^(BOOL finished) {
         NSLog(@"btn4OnClick");
