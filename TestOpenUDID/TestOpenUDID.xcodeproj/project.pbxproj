@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E17D735514D79DD0E485A96F /* libPods-TestOpenUDID.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 025760FC9868E4B448221DAD /* libPods-TestOpenUDID.a */; };
+		EA29192C22EEFC840019342B /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = EA29192922EEFC840019342B /* OpenUDID.m */; };
+		EA29192D22EEFC840019342B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EA29192A22EEFC840019342B /* README.md */; };
 		EAFBD6F0226D73AB0086961E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFBD6EF226D73AB0086961E /* AppDelegate.m */; };
 		EAFBD6F3226D73AB0086961E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFBD6F2226D73AB0086961E /* ViewController.m */; };
 		EAFBD6F6226D73AB0086961E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFBD6F4226D73AB0086961E /* Main.storyboard */; };
@@ -15,7 +17,6 @@
 		EAFBD6FB226D73AC0086961E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFBD6F9226D73AC0086961E /* LaunchScreen.storyboard */; };
 		EAFBD6FE226D73AC0086961E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFBD6FD226D73AC0086961E /* main.m */; };
 		EAFBD708226D73AC0086961E /* TestOpenUDIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFBD707226D73AC0086961E /* TestOpenUDIDTests.m */; };
-		EAFBD714226D73DA0086961E /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFBD712226D73DA0086961E /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EAFBD728226DD49F0086961E /* BLStopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFBD727226DD49F0086961E /* BLStopwatch.m */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,9 @@
 		025760FC9868E4B448221DAD /* libPods-TestOpenUDID.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestOpenUDID.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF63C552924E19C9196789E /* Pods-TestOpenUDID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestOpenUDID.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestOpenUDID/Pods-TestOpenUDID.debug.xcconfig"; sourceTree = "<group>"; };
 		189F2FCEC979C3AFAE8C8D3F /* Pods-TestOpenUDID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestOpenUDID.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestOpenUDID/Pods-TestOpenUDID.release.xcconfig"; sourceTree = "<group>"; };
+		EA29192922EEFC840019342B /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		EA29192A22EEFC840019342B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EA29192B22EEFC840019342B /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
 		EAFBD6EB226D73AB0086961E /* TestOpenUDID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOpenUDID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFBD6EE226D73AB0086961E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EAFBD6EF226D73AB0086961E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,8 +50,6 @@
 		EAFBD703226D73AC0086961E /* TestOpenUDIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOpenUDIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFBD707226D73AC0086961E /* TestOpenUDIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOpenUDIDTests.m; sourceTree = "<group>"; };
 		EAFBD709226D73AC0086961E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAFBD712226D73DA0086961E /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
-		EAFBD713226D73DA0086961E /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
 		EAFBD726226DD49F0086961E /* BLStopwatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLStopwatch.h; sourceTree = "<group>"; };
 		EAFBD727226DD49F0086961E /* BLStopwatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLStopwatch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EA29192822EEFC840019342B /* OpenUDID */ = {
+			isa = PBXGroup;
+			children = (
+				EA29192922EEFC840019342B /* OpenUDID.m */,
+				EA29192A22EEFC840019342B /* README.md */,
+				EA29192B22EEFC840019342B /* OpenUDID.h */,
+			);
+			path = OpenUDID;
+			sourceTree = "<group>";
+		};
 		EAFBD6E2226D73AB0086961E = {
 			isa = PBXGroup;
 			children = (
@@ -117,8 +129,7 @@
 				EAFBD6F2226D73AB0086961E /* ViewController.m */,
 				EAFBD726226DD49F0086961E /* BLStopwatch.h */,
 				EAFBD727226DD49F0086961E /* BLStopwatch.m */,
-				EAFBD713226D73DA0086961E /* OpenUDID.h */,
-				EAFBD712226D73DA0086961E /* OpenUDID.m */,
+				EA29192822EEFC840019342B /* OpenUDID */,
 				EAFBD6F4226D73AB0086961E /* Main.storyboard */,
 				EAFBD6F7226D73AC0086961E /* Assets.xcassets */,
 				EAFBD6F9226D73AC0086961E /* LaunchScreen.storyboard */,
@@ -220,6 +231,7 @@
 			files = (
 				EAFBD6FB226D73AC0086961E /* LaunchScreen.storyboard in Resources */,
 				EAFBD6F8226D73AC0086961E /* Assets.xcassets in Resources */,
+				EA29192D22EEFC840019342B /* README.md in Resources */,
 				EAFBD6F6226D73AB0086961E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,10 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAFBD6F3226D73AB0086961E /* ViewController.m in Sources */,
-				EAFBD714226D73DA0086961E /* OpenUDID.m in Sources */,
 				EAFBD6FE226D73AC0086961E /* main.m in Sources */,
 				EAFBD728226DD49F0086961E /* BLStopwatch.m in Sources */,
 				EAFBD6F0226D73AB0086961E /* AppDelegate.m in Sources */,
+				EA29192C22EEFC840019342B /* OpenUDID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
