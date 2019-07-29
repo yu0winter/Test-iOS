@@ -50,7 +50,7 @@
     
     // 同一设备不同程序间，通过粘贴板共用一份。但当所有包含OpenUDID的程序删除后。下次得到的是新的值
     NSString *openUDID = [OpenUDID value];
-    [watch splitWithDescription:[NSString stringWithFormat:@"OpenUDID:%@",openUDID]];
+    [watch splitWithDescription:[NSString stringWithFormat:@"OpenUDID:%@\n同一Team开发的App，通过粘贴板共享唯一标志",openUDID]];
 //    NSLog(@"OpenUDID:%@",openUDID);
     
     // 设备固定，重置手机会重置
@@ -67,7 +67,7 @@
     
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        NSString *allTime =  [NSString stringWithFormat:@"%@  \n持续时间：%.3fs",watch.prettyPrintedSplits,watch.elapseTimeInterval];
+        NSString *allTime =  [NSString stringWithFormat:@"%@\n%@  \n持续时间：%.3fs",[NSBundle mainBundle].bundleIdentifier,watch.prettyPrintedSplits,watch.elapseTimeInterval];
         self.textView.text =allTime;
     });
     
