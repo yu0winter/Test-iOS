@@ -1,1 +1,0 @@
-../../../jdcnFaceSDK/jdcnFaceSDK/Classes/SDKAPI/JDCNSDKManager.h
